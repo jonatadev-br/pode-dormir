@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.podedormir.AlarmActivityTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2026-11-06T12:54:21" hostname="e2b.local" time="14.387">
+  <properties/>
+  <testcase name="swipeFromOtherScreenAreaDismisses" classname="br.com.podedormir.AlarmActivityTest" time="3.526"/>
+  <testcase name="clockUpdatesAndConfirmationCancelsBackups" classname="br.com.podedormir.AlarmActivityTest" time="0.136"/>
+  <testcase name="cancelledAfterSwipeDoesNotDismiss" classname="br.com.podedormir.AlarmActivityTest" time="0.11"/>
+  <testcase name="slidingUpDismissesAndCancelsBackups" classname="br.com.podedormir.AlarmActivityTest" time="0.103"/>
+  <testcase name="volumeUpAlsoDismisses" classname="br.com.podedormir.AlarmActivityTest" time="0.127"/>
+  <testcase name="awakeButtonCancelsManyBackupsAndSnooze" classname="br.com.podedormir.AlarmActivityTest" time="0.153"/>
+  <testcase name="shortOrDownwardDragDoesNotDismiss" classname="br.com.podedormir.AlarmActivityTest" time="0.117"/>
+  <testcase name="upwardReleaseWithoutMoveStillDismisses" classname="br.com.podedormir.AlarmActivityTest" time="0.126"/>
+  <testcase name="predominantlyHorizontalDragDoesNotDismiss" classname="br.com.podedormir.AlarmActivityTest" time="0.084"/>
+  <testcase name="cancelledGestureDoesNotDismiss" classname="br.com.podedormir.AlarmActivityTest" time="0.094"/>
+  <testcase name="snoozeSchedulesWithoutCancellingBackups" classname="br.com.podedormir.AlarmActivityTest" time="0.211"/>
+  <testcase name="volumeKeysDismissWhenActivityIsOpen" classname="br.com.podedormir.AlarmActivityTest" time="0.069"/>
+  <testcase name="android15AlarmScreenReceivesInsets" classname="br.com.podedormir.AlarmActivityTest" time="5.723"/>
+  <testcase name="deniedExactAlarmPermissionKeepsAlertOpenOnSnooze" classname="br.com.podedormir.AlarmActivityTest" time="3.732"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+]]></system-err>
+</testsuite>

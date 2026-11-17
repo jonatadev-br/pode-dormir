@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.podedormir.StorageAndRestoreTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-06T12:55:45" hostname="e2b.local" time="3.946">
+  <properties/>
+  <testcase name="malformedEventAndDuplicateIdsAreRejected" classname="br.com.podedormir.StorageAndRestoreTest" time="2.256"/>
+  <testcase name="onlySupportedRestoreActionsReschedule" classname="br.com.podedormir.StorageAndRestoreTest" time="0.156"/>
+  <testcase name="damagedHistoryIsPreservedUntilExplicitClear" classname="br.com.podedormir.StorageAndRestoreTest" time="0.032"/>
+  <testcase name="corruptJsonCannotBeOverwritten" classname="br.com.podedormir.StorageAndRestoreTest" time="0.028"/>
+  <testcase name="corruptStorageShowsWarningInsteadOfEmptyState" classname="br.com.podedormir.StorageAndRestoreTest" time="1.402"/>
+  <testcase name="timezoneChangePreservesLocalTime" classname="br.com.podedormir.StorageAndRestoreTest" time="0.069"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.podedormir.AlarmsTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-11-06T12:54:47" hostname="e2b.local" time="5.029">
+  <properties/>
+  <testcase name="confirmedAlarmReceiverIgnoresLateDelivery" classname="br.com.podedormir.AlarmsTest" time="2.247"/>
+  <testcase name="firedAlarmStartsServiceAndRecordsAttempt" classname="br.com.podedormir.AlarmsTest" time="0.059"/>
+  <testcase name="createsThreeIndependentAttempts" classname="br.com.podedormir.AlarmsTest" time="0.048"/>
+  <testcase name="editingReplacesOldSchedule" classname="br.com.podedormir.AlarmsTest" time="0.055"/>
+  <testcase name="editingToFewerBackupsCancelsAllOldOnes" classname="br.com.podedormir.AlarmsTest" time="0.043"/>
+  <testcase name="recurringCreatesSeparateNextAndIsIdempotent" classname="br.com.podedormir.AlarmsTest" time="0.039"/>
+  <testcase name="scheduledIntentsCarryCorrectTimes" classname="br.com.podedormir.AlarmsTest" time="0.03"/>
+  <testcase name="restoresUpcomingAlarmRequests" classname="br.com.podedormir.AlarmsTest" time="0.047"/>
+  <testcase name="manyBackupsAndSnoozeHaveDistinctIdentitiesAndConfirmCancelsAll" classname="br.com.podedormir.AlarmsTest" time="0.055"/>
+  <testcase name="invalidTimeIsNotScheduled" classname="br.com.podedormir.AlarmsTest" time="0.025"/>
+  <testcase name="snoozeKeepsBackupsAndConfirmCancelsAll" classname="br.com.podedormir.AlarmsTest" time="0.034"/>
+  <testcase name="missingTimestampInLegacyAlarmIsIgnored" classname="br.com.podedormir.AlarmsTest" time="0.03"/>
+  <testcase name="confirmPersistsAndPreventsRestoration" classname="br.com.podedormir.AlarmsTest" time="0.026"/>
+  <testcase name="highBackupAttemptIsAcceptedAndAfterConfirmationIgnored" classname="br.com.podedormir.AlarmsTest" time="0.038"/>
+  <testcase name="cancellingOneDoesNotCancelAnother" classname="br.com.podedormir.AlarmsTest" time="0.025"/>
+  <testcase name="partialSchedulingWarnsAndConfirmedCancelsAllAccepted" classname="br.com.podedormir.AlarmsTest" time="0.054"/>
+  <testcase name="earlyDeliveryIsIgnored" classname="br.com.podedormir.AlarmsTest" time="0.03"/>
+  <testcase name="oldSnoozeAndRemovedBackupAreIgnored" classname="br.com.podedormir.AlarmsTest" time="0.024"/>
+  <testcase name="deleteSeriesRemovesIndependentOccurrences" classname="br.com.podedormir.AlarmsTest" time="0.056"/>
+  <testcase name="staleAlarmAfterEditIsIgnored" classname="br.com.podedormir.AlarmsTest" time="0.035"/>
+  <testcase name="missedRecurringOccurrenceRestoresNextFuture" classname="br.com.podedormir.AlarmsTest" time="0.062"/>
+  <testcase name="deniesExactAlarmPermission" classname="br.com.podedormir.AlarmsTest" time="1.954"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+]]></system-err>
+</testsuite>

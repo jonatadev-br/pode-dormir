@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.podedormir.AlarmServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-06T12:54:43" hostname="e2b.local" time="2.622">
+  <properties/>
+  <testcase name="missingEventDoesNotCreateActiveAlert" classname="br.com.podedormir.AlarmServiceTest" time="2.267"/>
+  <testcase name="confirmingOneOfTwoKeepsOtherActive" classname="br.com.podedormir.AlarmServiceTest" time="0.192"/>
+  <testcase name="restartedServiceAttemptsToResumeActiveAlert" classname="br.com.podedormir.AlarmServiceTest" time="0.046"/>
+  <testcase name="foregroundNotificationIncludesFullScreenRequest" classname="br.com.podedormir.AlarmServiceTest" time="0.061"/>
+  <testcase name="confirmedAlertIsNotResumed" classname="br.com.podedormir.AlarmServiceTest" time="0.055"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+]]></system-err>
+</testsuite>

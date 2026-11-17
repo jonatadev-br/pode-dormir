@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.podedormir.UpcomingNotificationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-06T12:55:56" hostname="e2b.local" time="2.531">
+  <properties/>
+  <testcase name="ignoresPastInvalidTestAndConfirmedEntries" classname="br.com.podedormir.UpcomingNotificationTest" time="2.241"/>
+  <testcase name="ringingNotificationCarriesEventAndTime" classname="br.com.podedormir.UpcomingNotificationTest" time="0.112"/>
+  <testcase name="incompleteScheduleIsReportedAndCorruptionRemovesOldNotification" classname="br.com.podedormir.UpcomingNotificationTest" time="0.032"/>
+  <testcase name="showsNearestAndWakeTimeAndUsesSeparateQuietChannel" classname="br.com.podedormir.UpcomingNotificationTest" time="0.047"/>
+  <testcase name="disabledNotificationsDoNotProduceNewReminder" classname="br.com.podedormir.UpcomingNotificationTest" time="0.04"/>
+  <testcase name="editConfirmAndDeleteUpdateNotification" classname="br.com.podedormir.UpcomingNotificationTest" time="0.054"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+]]></system-err>
+</testsuite>

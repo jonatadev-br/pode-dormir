@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'br.com.podedormir'
+    compileSdk 35
+    testOptions { unitTests.includeAndroidResources = true; unitTests.all { maxHeapSize = "256m"; jvmArgs "-XX:ActiveProcessorCount=2", "-XX:MaxMetaspaceSize=256m"; forkEvery = 1 } }
+    defaultConfig {
+        applicationId 'br.com.podedormir'
+        minSdk 29
+        targetSdk 35
+        versionCode 21
+        versionName '0.21-experimental'
+    }
+}
+
+dependencies {
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.robolectric:robolectric:4.16.1"
+}
