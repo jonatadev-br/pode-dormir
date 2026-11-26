@@ -1,0 +1,24 @@
+# pode-dormir — .gitignore
+
+# Build Android
+build/
+.gradle/
+*.gradle
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Relatorios de teste (artefatos de build — não versionar)
+relatorios/
+**/TEST-*.xml
+**/test-results/
+
+# Keystores / assinatura (nunca versionar)
+*.jks
+*.keystore
+*.p12
+key.properties
+
+# Logs
+*.log
